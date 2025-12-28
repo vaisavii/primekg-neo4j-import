@@ -150,15 +150,17 @@ neo4j-admin database import full \
 After import, the Neo4j database contains approximately:
  - ~130k nodes
  - ~8 million relationships
----
 
 <img width="230" height="485" alt="kuva" src="https://github.com/user-attachments/assets/cdec4ed9-5860-4f4c-91e8-886c85438eb9" />
+
 The image illustrates the PrimeKG database structure and size in Neo4j after the import has completed.
 
 <img width="468" height="446" alt="subgraph" src="https://github.com/user-attachments/assets/fa0a8317-f67d-4ad4-a223-8538e4015175" />
+
 The image shows an example subgraph visualized in Neo4j Desktop after the bulk import has completed.
 It illustrates approved HIV antiretroviral drugs connected to HIV-related disease entities (*HIV infectious disease* and *AIDS*) via `indication` relationships.
 
+---
 
 ## Requirements
 
