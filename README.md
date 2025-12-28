@@ -1,6 +1,8 @@
 # primekg-neo4j-import
 Pipeline for converting the PrimeKG biomedical knowledge graph into a Neo4j database using bulk import.
 
+This work was carried out as part of an internship with the Systems Genomics Research Group at the University of Eastern Finland (UEF).
+
 # PrimeKG → Neo4j Bulk Import Pipeline
 
 This repository documents the process of converting the **PrimeKG biomedical knowledge graph**
