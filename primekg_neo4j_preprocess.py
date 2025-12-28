@@ -6,8 +6,8 @@ from tqdm import tqdm
 # PrimeKG -> Neo4j bulk import preprocessing
 # -------------------------------------------------------------------
 
-NODES_PATH = "/research/groups/bioinformaticians/internship/vaisavii/primekg/primekg_raw/nodes.tab"
-EDGES_PATH = "/research/groups/bioinformaticians/internship/vaisavii/primekg/primekg_raw/edges.csv"
+NODES_PATH = "/primekg_raw/nodes.tab"
+EDGES_PATH = "/primekg_raw/edges.csv"
 
 OUT_NODES = "primekg_nodes_neo.csv"
 OUT_RELS  = "primekg_rels_neo.csv"
